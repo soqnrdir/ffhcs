@@ -1,0 +1,39 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+body .row {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body .feeds-column {
+  display: inline-block;
+  margin-right: 2em;
+  vertical-align: top;
+}
+
+body .feeds-column .column-header {
+  padding-bottom: 5px;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+body .add-feed-col input {
+  margin-bottom: 10px;
+}
+
+body .feeds-column .feed-display-ele {
+  padding-bottom: 10px;
+}
+
+body .feeds-column .feed-display-ele button {
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+body .feeds-column .feed-display-ele .edit-view {
+  display: none;
+}
